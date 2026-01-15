@@ -5,9 +5,9 @@
 	"Description": "{{ self.description }}",
 	"Authors": [
 		{
-			"Name": "{{ self.authors.author_name }}",
-			"Email": "{{ self.authors.author_email }}",
-			"Url": "{{ self.authors.author_url }}"
+			"Name": "{{ self.author_name }}",
+			"Email": "{{ self.author_email }}",
+			"Url": "{{ self.author_url }}"
 		}
 	],
 	"Website": "{{ self.website }}",
